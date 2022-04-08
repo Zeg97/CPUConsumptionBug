@@ -1,0 +1,51 @@
+Project:
+ Name: CPUConsumptionBug
+ ProjectNamespaceIndex: 6
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ CoreVersion: 8.0.0.0
+ Dependencies:
+  2:
+   Uri: 'urn:QPlatform:CoreBase'
+   Module: QPlatform.CoreBase
+   Version: 8.0.0.0
+  3:
+   Uri: 'urn:QPlatform:UI'
+   Module: QPlatform.UI
+   Version: 43.3.0.0
+  4:
+   Uri: 'urn:QPlatform:HMIProject'
+   Module: QPlatform.HMIProject
+   Version: 10.1.0.0
+  5:
+   Uri: 'urn:QPlatform:NativeUI'
+   Module: QPlatform.NativeUI
+   Version: 26.3.0.0
+  7:
+   Uri: 'urn:QPlatform:CommunicationDriver'
+   Module: QPlatform.CommunicationDriver
+   Version: 5.0.0.0
+  8:
+   Uri: 'urn:QPlatform:EthernetIPDriver'
+   Module: QPlatform.EthernetIPDriver
+   Version: 5.0.0.0
+  9:
+   Uri: 'urn:QPlatform:Datalogger'
+   Module: QPlatform.Datalogger
+   Version: 12.0.0.0
+  10:
+   Uri: 'urn:QPlatform:Store'
+   Module: QPlatform.Store
+   Version: 2.1.0.0
+  11:
+   Uri: 'urn:QPlatform:SQLiteStore'
+   Module: QPlatform.SQLiteStore
+   Version: 2.1.0.0
+  12:
+   Uri: 'urn:QPlatform:CoDeSysDriver'
+   Module: QPlatform.CoDeSysDriver
+   Version: 4.0.0.0
+ Nodes:
+ - File: Nodes/CPUConsumptionBug.yaml

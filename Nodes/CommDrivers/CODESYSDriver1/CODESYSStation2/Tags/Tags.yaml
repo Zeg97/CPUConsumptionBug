@@ -1,0 +1,66 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Application
+  Type: TagStructure
+  Children:
+  - Name: PLC_PRG
+    Type: TagStructure
+    Children:
+    - Name: VAR_DYNAMIC_0
+      Type: CoDeSysTag
+      DataType: UInt32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.VAR_DYNAMIC_0"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=7;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: VAR_DYNAMIC_1
+      Type: CoDeSysTag
+      DataType: UInt32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.VAR_DYNAMIC_1"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=7;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: VAR_DYNAMIC_10
+      Type: CoDeSysTag
+      DataType: UInt32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.VAR_DYNAMIC_10"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=7;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384

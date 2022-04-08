@@ -1,0 +1,66 @@
+Name: CODESYSStation2
+Id: g=caa8d3d9c6e79aa62d999c06ad0b8575
+Type: CoDeSysStation
+Children:
+- Name: GatewayIP
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "172.19.16.58 "
+- Name: Port
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 1217
+- Name: PLCAddress
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "LP30_P8_CODESYS_DEMO"
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:0.0000000"
+- Name: PlcVersion
+  Type: BaseDataVariableType
+  DataType: CoDeSysPlcVersion
+  Value: 1
+- Name: Endianness
+  Type: BaseDataVariableType
+  DataType: Endianness
+  Value: 0
+- Name: LoginToPlc
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Protocol
+  Type: BaseDataVariableType
+  DataType: CoDeSysProtocol
+  Value: 0
+- Name: CommunicationBufferSize
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=7;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=7;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: BaseObjectType

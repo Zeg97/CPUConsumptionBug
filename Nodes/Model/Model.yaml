@@ -1,0 +1,125 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: Pressure
+  Id: g=d8b9e945cf5074bfcbfddd6950559767
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: LinearConverter1
+    Type: LinearConverter
+    Children:
+    - Name: Source
+      Type: BaseDataVariableType
+      DataType: Number
+      ReferenceType: HasSource
+      Value: {"Type":11,"Body":0.0}
+      Children:
+      - Name: DynamicLink
+        Type: DataBind
+        DataType: NodePath
+        Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation2/Tags/Application/PLC_PRG/VAR_DYNAMIC_0"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DataBindModeType
+          Value: 2
+    - Name: Slope
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 0.05
+    - Name: Intercept
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 0.0
+    - Name: Mode
+      Type: PropertyType
+      DataType: DataBindModeType
+      ReferenceType: HasComponent
+      Value: 2
+- Name: Temperature
+  Id: g=1ecddb53be376f1f811486495e04b312
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: LinearConverter1
+    Type: LinearConverter
+    Children:
+    - Name: Source
+      Type: BaseDataVariableType
+      DataType: Number
+      ReferenceType: HasSource
+      Value: {"Type":11,"Body":0.0}
+      Children:
+      - Name: DynamicLink
+        Type: DataBind
+        DataType: NodePath
+        Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation2/Tags/Application/PLC_PRG/VAR_DYNAMIC_1"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DataBindModeType
+          Value: 2
+    - Name: Slope
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 0.02
+    - Name: Intercept
+      Type: BaseDataVariableType
+      DataType: Double
+      ReferenceType: HasParameter
+      Value: 0.0
+    - Name: Mode
+      Type: PropertyType
+      DataType: DataBindModeType
+      ReferenceType: HasComponent
+      Value: 2
+- Name: FanRPM
+  Id: g=057745f993c126d6c395ab6ab13f1c63
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DataBind
+    DataType: NodePath
+    Value: "../../CommDrivers/CODESYSDriver1/CODESYSStation2/Tags/Application/PLC_PRG/VAR_DYNAMIC_10"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DataBindModeType
+      Value: 2
+- Name: flowrate
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DataBind
+    DataType: NodePath
+    Value: "../../CommDrivers/CODESYSDriver1/CODESYSStation2/Tags/Application/PLC_PRG/VAR_DYNAMIC_0"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DataBindModeType
+      Value: 2
+- Name: press
+  Id: g=04daa38721609a1a831f357020a1355b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DataBind
+    DataType: NodePath
+    Value: "../../CommDrivers/CODESYSDriver1/CODESYSStation2/Tags/Application/PLC_PRG/VAR_DYNAMIC_1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DataBindModeType
+      Value: 2

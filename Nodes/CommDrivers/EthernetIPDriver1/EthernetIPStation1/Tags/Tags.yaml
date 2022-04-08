@@ -1,0 +1,60 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: benchmarkTag_static_int_2
+  Type: EthernetIPDriverTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "benchmarkTag_static_int_2"
+  - Name: Quality
+    Type: BaseDataVariableType
+    DataType: ns=7;Quality
+    AccessLevel: Read
+    Value: 0
+  - Name: OperationCode
+    Type: BaseDataVariableType
+    DataType: TagOperationCode
+    AccessLevel: Read
+    Value: -2144272384
+- Name: benchmarkTag_dynamic_int_14
+  Type: EthernetIPDriverTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "benchmarkTag_dynamic_int_14"
+  - Name: Quality
+    Type: BaseDataVariableType
+    DataType: ns=7;Quality
+    AccessLevel: Read
+    Value: 0
+  - Name: OperationCode
+    Type: BaseDataVariableType
+    DataType: TagOperationCode
+    AccessLevel: Read
+    Value: -2144272384
+- Name: benchmarkTag_dynamic_int_929
+  Type: EthernetIPDriverTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "benchmarkTag_dynamic_int_929"
+  - Name: Quality
+    Type: BaseDataVariableType
+    DataType: ns=7;Quality
+    AccessLevel: Read
+    Value: 0
+  - Name: OperationCode
+    Type: BaseDataVariableType
+    DataType: TagOperationCode
+    AccessLevel: Read
+    Value: -2144272384

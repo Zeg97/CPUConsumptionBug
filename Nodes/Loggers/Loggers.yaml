@@ -1,0 +1,90 @@
+Name: Loggers
+Type: FolderType
+Children:
+- Name: DataLogger1
+  Id: g=75494877ddbb76b43f0500f975a42d3d
+  Type: Datalogger
+  Children:
+  - Name: SamplingMode
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 2
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"848278198298924790f56a1174ecef0b","Namespace":6}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":10}
+  - Name: VariablesToLog
+    Type: BaseObjectType
+    Children:
+    - Name: VariableToSample1
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=5102e793e85ed0acfd4e709bb871bdb6
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DataBind
+        DataType: NodePath
+        Value: "../../../../Model/Pressure"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DataBindModeType
+          Value: 2
+    - Name: VariableToSample2
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=80e0a6e16ccc35a9562320d8bbc77591
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DataBind
+        DataType: NodePath
+        Value: "../../../../Model/Temperature"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DataBindModeType
+          Value: 2
+  - Class: Reference
+    Target: ns=9;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:0.1000000"

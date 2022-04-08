@@ -1,0 +1,23 @@
+Name: TagImporter
+Type: EthernetIPDriverTagImporter
+OwnerId: ns=2;g=147a2d1e6005f2403db82331d5723924
+Children:
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: ""
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 1
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
