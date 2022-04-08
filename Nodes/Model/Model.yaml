@@ -108,18 +108,3 @@ Children:
       Type: BaseVariableType
       DataType: DataBindModeType
       Value: 2
-- Name: press
-  Id: g=04daa38721609a1a831f357020a1355b
-  Type: BaseDataVariableType
-  DataType: Int32
-  Value: 0
-  Children:
-  - Name: DynamicLink
-    Type: DataBind
-    DataType: NodePath
-    Value: "../../CommDrivers/CODESYSDriver1/CODESYSStation2/Tags/Application/PLC_PRG/VAR_DYNAMIC_1"
-    Children:
-    - Name: Mode
-      Type: BaseVariableType
-      DataType: DataBindModeType
-      Value: 2
